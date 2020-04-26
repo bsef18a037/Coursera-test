@@ -1,7 +1,5 @@
 * {
 
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 
 }
@@ -9,379 +7,199 @@
 h1 {
 
     width: 150px;
-    margin: 50px auto;
+    margin: 30px auto;
 
 }
 
-/* Media query */
-@media (min-width: 1920px) {
+@media (min-width: 992px) {
 
-    section#menu {
+    .row {
 
+        width: 100%;
         position: relative;
-        left: 165px;
-        float: left;
-        height: 207px;
-        width: 25%;
-        margin: 0 30px;
-        background-color: rgb(151, 151, 151);
-        border: 1px solid black;
-        padding: 0 5px 5px 5px;
-        overflow: hidden;
-    
+        left: 20px;
+
     }
 
-    section#menudown {
+    section.col-lg-3 > div {
 
+        width: 65px;
         position: relative;
-        left: 165px;
-        float: left;
-        height: 207px;
-        width: 25%;
-        margin: 0 30px;
-        background-color: rgb(151, 151, 151);
-        border: 1px solid black;
-        padding: 0 5px 5px 5px;
-        overflow: hidden;
-    
-    }
-    
-    section#menu > div {
-    
-        height: 20px;
-    
-    }
-
-    section#menudown > div {
-    
-        height: 20px;
-    
-    } 
-    
-    div#region > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
-        border: 1px solid black;
-        width: 80px;
         float: right;
-        background-color: fuchsia;
+        bottom: 1px;
+        text-align: center;
+        font-family: 22px;
+        font-weight: bold;
+
+    }
+
+    div#chicken {
+
+        color: black;
+        background-color: greenyellow;
+        border: 1px solid black;
+
+    }
+
+    div#beef {
+
         color: white;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
-    }
-    
-    div#region1 > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
+        background-color: lightcoral;
         border: 1px solid black;
-        width: 80px;
-        float: right;
-        background-color: yellow;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
+
     }
-    
-    div#region2 > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
+
+    div#sushi {
+
+        color: black;
+        background-color: pink;
         border: 1px solid black;
-        width: 80px;
-        float: right;
-        background-color: red;
-        color: white;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
+
     }
 
-}
+    section.col-lg-3 {
 
-@media (min-width: 992px) and (max-width: 1919px) {
-
-    section#menu {
-
-        position: relative;
-        left: 70px;
         float: left;
-        height: 207px;
-        width: 25%;
-        margin: 0 30px;
-        background-color: rgb(151, 151, 151);
-        border: 1px solid black;
-        padding: 0 5px 5px 5px;
-        overflow: hidden;
-    
+        border: 1px black solid;
+        background-color: gray;
+        padding: 0 0 0 5px;
+        margin: 15px;
+
     }
 
-    section#menudown {
+    section.col-lg-3#last {
 
-        position: relative;
-        left: 70px;
         float: left;
-        height: 207px;
-        width: 25%;
-        margin: 0 30px;
-        background-color: rgb(151, 151, 151);
-        border: 1px solid black;
-        padding: 0 5px 5px 5px;
-        overflow: hidden;
-    
-    }
-    
-    section#menu > div {
-    
-        height: 20px;
-    
+        border: 1px black solid;
+        background-color: gray;
+        padding: 0 0 0 5px;
+        margin: 15px 0 15px 15px;
+
     }
 
-    section#menudown > div {
-    
-        height: 20px;
-    
-    } 
-    
-    div#region > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
-        border: 1px solid black;
-        width: 80px;
-        float: right;
-        background-color: fuchsia;
-        color: white;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
-    }
-    
-    div#region1 > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
-        border: 1px solid black;
-        width: 80px;
-        float: right;
-        background-color: yellow;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
-    }
-    
-    div#region2 > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
-        border: 1px solid black;
-        width: 80px;
-        float: right;
-        background-color: red;
-        color: white;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
+    .col-lg-3 {
+
+        width: 30.11%;
+
     }
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-    section#menu {
+    .row {
 
+        width: 100%;
         position: relative;
-        left: 30px;
-        float: left;
-        width: 45%;
-        margin: 10px;
-        background-color: rgb(151, 151, 151);
-        border: 1px solid black;
-        padding: 0 5px 5px 5px;
-        box-sizing: border-box;
-        overflow: hidden;
-    
+        left: 5px;
+
     }
 
-    section#menudown {
+    section.col-lg-3 > div {
 
+        width: 65px;
         position: relative;
-        left: 30px;
-        float: left;
-        width: 92%;
-        margin: 10px;
-        background-color: rgb(151, 151, 151);
-        border: 1px solid black;
-        padding: 0 5px 5px 5px;
-        box-sizing: border-box;
-        overflow: hidden;
-
-    }
-    
-    section#menu > div {
-    
-        height: 20px;
-    
-    }
-    
-    section#menudown > div {
-    
-        height: 20px;
-    
-    }
-    
-    div#region > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
-        border: 1px solid black;
-        width: 80px;
         float: right;
-        background-color: fuchsia;
+        bottom: 1px;
+        text-align: center;
+        font-family: 22px;
+        font-weight: bold;
+
+    }
+
+    div#chicken {
+
+        color: black;
+        background-color: greenyellow;
+        border: 1px solid black;
+
+    }
+
+    div#beef {
+
         color: white;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
-    }
-    
-    div#region1 > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
+        background-color: lightcoral;
         border: 1px solid black;
-        width: 80px;
-        float: right;
-        background-color: yellow;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
+
     }
-    
-    div#region2 > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
+
+    div#sushi {
+
+        color: black;
+        background-color: pink;
         border: 1px solid black;
-        width: 80px;
-        float: right;
-        background-color: red;
-        color: white;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
+
+    }
+
+    section.col-md-4 {
+
+        float: left;
+        border: 1px black solid;
+        background-color: gray;
+        padding: 0 0 0 5px;
+        margin: 15px;
+
+    }
+
+    .col-md-4 {
+
+        width: 45.9%;
+
+    }
+
+    .col-md {
+
+        width: 95%;
+
     }
 
 }
 
 @media (max-width: 767px) {
 
-    section#menu {
+    section.col-lg-3 > div {
 
+        width: 65px;
         position: relative;
-        left: 13px;
-        float: left;
-        width: 93%;
-        margin: 10px 0;
-        background-color: rgb(151, 151, 151);
-        border: 1px solid black;
-        padding: 0 5px 5px 5px;
-        box-sizing: border-box;
-        overflow: hidden;
-    
-    }
-
-    section#menudown {
-
-        position: relative;
-        left: 13px;
-        float: left;
-        width: 93%;
-        margin: 10px 0;
-        background-color: rgb(151, 151, 151);
-        border: 1px solid black;
-        padding: 0 5px 5px 5px;
-        box-sizing: border-box;
-        overflow: hidden;
-    
-    }
-    
-    section#menu > div {
-    
-        height: 20px;
-    
-    }
-    
-    section#menudown > div {
-    
-        height: 20px;
-    
-    }
-    
-    div#region > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
-        border: 1px solid black;
-        width: 80px;
         float: right;
-        background-color: fuchsia;
+        bottom: 1px;
+        text-align: center;
+        font-family: 22px;
+        font-weight: bold;
+
+    }
+
+    div#chicken {
+
+        color: black;
+        background-color: greenyellow;
+        border: 1px solid black;
+
+    }
+
+    div#beef {
+
         color: white;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
-    }
-    
-    div#region1 > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
+        background-color: lightcoral;
         border: 1px solid black;
-        width: 80px;
-        float: right;
-        background-color: yellow;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
-    }
-    
-    div#region2 > p {
-    
-        position: relative;
-        left: 6px;
-        bottom: 1px;
-        border: 1px solid black;
-        width: 80px;
-        float: right;
-        background-color: red;
-        color: white;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    
+
     }
 
-}
+    div#sushi {
+
+        color: black;
+        background-color: pink;
+        border: 1px solid black;
+
+    }
+
+    section.col-md-4 {
+
+        float: left;
+        border: 1px black solid;
+        background-color: gray;
+        padding: 0 0 0 5px;
+        margin: 15px;
+
+    }
+
